@@ -104,6 +104,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	rcCopy.printCar();
 
 	delete ptrRcar;
+	delete rc;
+	delete rc2;
 	_getch();
 	return 0;
 }
